@@ -4,7 +4,7 @@ date: 2009
 abbreviation: SSEF
 sidebar:
   order: 120
-category: Packed String Matching
+tags: [packed-string-matching]
 ---
 
 Appeared in [76]

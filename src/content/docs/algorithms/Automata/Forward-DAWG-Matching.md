@@ -4,7 +4,7 @@ date: 1994
 abbreviation: "FDM"
 sidebar:
   order: 65
-category: Automata
+tags: [automata]
 ---
 
 Appeared in [35]

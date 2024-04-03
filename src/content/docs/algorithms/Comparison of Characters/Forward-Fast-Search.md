@@ -4,7 +4,7 @@ date: 2004
 abbreviation: FFS
 sidebar:
   order: 30
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [22]

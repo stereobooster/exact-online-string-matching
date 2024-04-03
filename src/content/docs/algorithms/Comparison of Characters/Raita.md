@@ -4,7 +4,7 @@ date: 1992
 abbreviation: RAITA
 sidebar:
   order: 19
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [88]

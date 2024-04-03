@@ -4,7 +4,7 @@ date: 2000
 abbreviation: BNDML
 sidebar:
   order: 84
-category: Bit Parallelism
+tags: [bit-parallelism]
 ---
 
 Appeared in [83]

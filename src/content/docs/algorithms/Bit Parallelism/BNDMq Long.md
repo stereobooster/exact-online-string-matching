@@ -4,7 +4,7 @@ date: 2010
 abbreviation: BQL
 sidebar:
   order: 105
-category: Bit Parallelism
+tags: [bit-parallelism]
 ---
 
 Appeared in [39]

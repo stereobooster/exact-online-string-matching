@@ -4,7 +4,7 @@ date: 2016
 abbreviation: BSDMqx
 sidebar:
   order: 79
-category: Automata
+tags: [automata]
 ---
 
 Appeared in [42]

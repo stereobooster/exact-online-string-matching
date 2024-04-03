@@ -4,7 +4,7 @@ date: 2009
 abbreviation: SBNDMq
 sidebar:
   order: 101
-category: Bit Parallelism
+tags: [bit-parallelism]
 ---
 
 Appeared in [38]

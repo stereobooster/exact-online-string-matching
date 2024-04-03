@@ -4,7 +4,7 @@ date: 2003
 abbreviation: SVM
 sidebar:
   order: 88
-category: Bit Parallelism
+tags: [bit-parallelism]
 ---
 
 Appeared in [85]

@@ -4,7 +4,7 @@ date: 1994
 abbreviation: "BDM"
 sidebar:
   order: 66
-category: Automata
+tags: [automata]
 ---
 
 Appeared in [35]

@@ -4,7 +4,6 @@ date: 0
 abbreviation: ""
 sidebar:
   order: -1
-category: Comparison of Characters
 ---
 
 ## Algorithms based on Comparison of Characters

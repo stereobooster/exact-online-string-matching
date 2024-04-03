@@ -4,7 +4,7 @@ date: 2012
 abbreviation: SBNDMw
 sidebar:
   order: 112
-category: Bit Parallelism
+tags: [bit-parallelism]
 ---
 
 Appeared in [51]

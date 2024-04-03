@@ -4,7 +4,7 @@ date: 2008
 abbreviation: FBOM
 sidebar:
   order: 74
-category: Automata
+tags: [automata]
 ---
 
 Appeared in [46,47]

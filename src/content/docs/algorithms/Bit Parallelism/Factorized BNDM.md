@@ -4,7 +4,7 @@ date: 2010
 abbreviation: KBNDM
 sidebar:
   order: 110
-category: Bit Parallelism
+tags: [bit-parallelism]
 ---
 
 Appeared in [26,27]

@@ -4,7 +4,7 @@ date: 2003
 abbreviation: FS
 sidebar:
   order: 29
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [21,22]

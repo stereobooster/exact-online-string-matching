@@ -4,7 +4,7 @@ date: 2003
 abbreviation: AKC
 sidebar:
   order: 28
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [1]

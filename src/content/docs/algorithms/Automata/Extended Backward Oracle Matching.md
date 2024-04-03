@@ -4,7 +4,7 @@ date: 2008
 abbreviation: EBOM
 sidebar:
   order: 73
-category: Automata
+tags: [automata]
 ---
 
 Appeared in [46,47]

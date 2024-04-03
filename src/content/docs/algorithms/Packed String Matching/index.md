@@ -4,7 +4,6 @@ date: 0
 abbreviation: ""
 sidebar:
   order: -1
-category: Packed String Matching
 ---
 
 ## Algorithms based on Packed String Matching

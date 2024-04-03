@@ -4,7 +4,7 @@ date: 2009
 abbreviation: GRASPm
 sidebar:
   order: 41
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [36]

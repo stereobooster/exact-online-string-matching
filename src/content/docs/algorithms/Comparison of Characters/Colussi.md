@@ -4,7 +4,7 @@ date: 1991
 abbreviation: COL
 sidebar:
   order: 16
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [29]

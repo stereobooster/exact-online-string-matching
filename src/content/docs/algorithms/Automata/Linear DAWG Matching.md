@@ -4,7 +4,7 @@ date: 2005
 abbreviation: LDM
 sidebar:
   order: 70
-category: Automata
+tags: [automata]
 ---
 
 Appeared in [63]

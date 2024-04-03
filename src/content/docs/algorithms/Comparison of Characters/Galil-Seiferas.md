@@ -4,7 +4,7 @@ date: 1981
 abbreviation: GS
 sidebar:
   order: 6
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [60,61]

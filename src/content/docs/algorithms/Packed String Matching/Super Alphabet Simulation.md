@@ -4,7 +4,7 @@ date: 2002
 abbreviation: SAS
 sidebar:
   order: 118
-category: Packed String Matching
+tags: [packed-string-matching]
 ---
 
 Appeared in [56]

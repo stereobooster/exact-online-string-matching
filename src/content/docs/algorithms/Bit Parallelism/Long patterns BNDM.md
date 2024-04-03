@@ -4,7 +4,7 @@ date: 2003
 abbreviation: LBNDM
 sidebar:
   order: 87
-category: Bit Parallelism
+tags: [bit-parallelism]
 ---
 
 Appeared in [85]

@@ -4,7 +4,7 @@ date: 2015
 abbreviation: EERSA
 sidebar:
   order: 58
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [95]

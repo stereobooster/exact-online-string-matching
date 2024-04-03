@@ -4,7 +4,7 @@ date: 1994
 abbreviation: RCOL
 sidebar:
   order: 23
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [30]

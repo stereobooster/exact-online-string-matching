@@ -4,7 +4,7 @@ date: 2008
 abbreviation: FSBNDM
 sidebar:
   order: 98
-category: Bit Parallelism
+tags: [bit-parallelism]
 ---
 
 Appeared in [46,47]

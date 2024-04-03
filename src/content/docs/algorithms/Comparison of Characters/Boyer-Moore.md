@@ -4,7 +4,7 @@ date: 1977
 abbreviation: BM
 sidebar:
   order: 4
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [18]

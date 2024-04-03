@@ -4,7 +4,7 @@ date: 2005
 abbreviation: "WW"
 sidebar:
   order: 69
-category: Automata
+tags: [automata]
 ---
 
 Appeared in [63]

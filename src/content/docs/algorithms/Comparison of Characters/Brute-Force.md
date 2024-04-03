@@ -4,7 +4,7 @@ date: 0
 abbreviation: BF
 sidebar:
   order: 1
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [31]

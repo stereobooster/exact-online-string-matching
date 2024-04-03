@@ -4,7 +4,7 @@ date: 2009
 abbreviation: SEBOM
 sidebar:
   order: 76
-category: Automata
+tags: [automata]
 ---
 
 Appeared in [40]

@@ -4,7 +4,7 @@ date: 2012
 abbreviation: FSw
 sidebar:
   order: 45
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [51]

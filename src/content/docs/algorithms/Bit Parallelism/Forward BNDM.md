@@ -4,7 +4,7 @@ date: 2008
 abbreviation: FBNDM
 sidebar:
   order: 97
-category: Bit Parallelism
+tags: [bit-parallelism]
 ---
 
 Appeared in [46,47]

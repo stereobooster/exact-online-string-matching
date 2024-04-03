@@ -4,7 +4,7 @@ date: 2003
 abbreviation: BNDM2
 sidebar:
   order: 89
-category: Bit Parallelism
+tags: [bit-parallelism]
 ---
 
 Appeared in [64]

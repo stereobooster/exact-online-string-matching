@@ -4,7 +4,6 @@ date: 0
 abbreviation: ""
 sidebar:
   order: -1
-category: Bit Parallelism
 ---
 
 ## Algorithms based on Bit Parallelism

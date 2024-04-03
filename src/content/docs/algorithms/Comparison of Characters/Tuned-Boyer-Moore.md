@@ -4,7 +4,7 @@ date: 1991
 abbreviation: TunBM
 sidebar:
   order: 15
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [69,70]

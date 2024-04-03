@@ -4,7 +4,7 @@ date: 2006
 abbreviation: ILDM2
 sidebar:
   order: 72
-category: Automata
+tags: [automata]
 ---
 
 Appeared in [79]

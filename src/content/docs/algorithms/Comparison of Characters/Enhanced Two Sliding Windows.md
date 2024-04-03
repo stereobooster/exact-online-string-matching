@@ -4,7 +4,7 @@ date: 2012
 abbreviation: ETSW
 sidebar:
   order: 49
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [71]

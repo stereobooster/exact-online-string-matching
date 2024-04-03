@@ -4,7 +4,7 @@ date: 2009
 abbreviation: UFNDMq
 sidebar:
   order: 102
-category: Bit Parallelism
+tags: [bit-parallelism]
 ---
 
 Appeared in [38]

@@ -4,7 +4,7 @@ date: 2000
 abbreviation: "DFDM"
 sidebar:
   order: 68
-category: Automata
+tags: [automata]
 ---
 
 Appeared in [4,5]

@@ -4,7 +4,7 @@ date: 2012
 abbreviation: RSA
 sidebar:
   order: 51
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [90]

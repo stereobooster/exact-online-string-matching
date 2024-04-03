@@ -4,7 +4,7 @@ date: 1970
 abbreviation: MP
 sidebar:
   order: 2
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [80]

@@ -4,7 +4,7 @@ date: 2006
 abbreviation: PBMH
 sidebar:
   order: 35
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [84]

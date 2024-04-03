@@ -4,7 +4,7 @@ date: 2007
 abbreviation: HASHq
 sidebar:
   order: 38
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [78]

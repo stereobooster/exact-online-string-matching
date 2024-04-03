@@ -4,7 +4,7 @@ date: 2013
 abbreviation: JOM
 sidebar:
   order: 55
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [23,24]

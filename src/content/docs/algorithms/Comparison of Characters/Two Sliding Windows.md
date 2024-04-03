@@ -4,7 +4,7 @@ date: 2008
 abbreviation: TSW
 sidebar:
   order: 40
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [67]

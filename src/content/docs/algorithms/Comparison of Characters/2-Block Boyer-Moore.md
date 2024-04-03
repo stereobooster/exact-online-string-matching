@@ -4,7 +4,7 @@ date: 2007
 abbreviation: 2BLOCK
 sidebar:
   order: 37
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [97]

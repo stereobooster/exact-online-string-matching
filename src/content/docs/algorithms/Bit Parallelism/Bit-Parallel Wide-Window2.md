@@ -4,7 +4,7 @@ date: 2010
 abbreviation: BPWW2
 sidebar:
   order: 108
-category: Bit Parallelism
+tags: [bit-parallelism]
 ---
 
 Appeared in [25]

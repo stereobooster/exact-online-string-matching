@@ -4,7 +4,7 @@ date: 2013
 abbreviation: WOM
 sidebar:
   order: 54
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [23,24]

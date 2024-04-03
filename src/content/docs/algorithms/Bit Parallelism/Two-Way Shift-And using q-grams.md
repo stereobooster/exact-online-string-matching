@@ -4,7 +4,7 @@ date: 2014
 abbreviation: TSAq
 sidebar:
   order: 116
-category: Bit Parallelism
+tags: [bit-parallelism]
 ---
 
 Appeared in [37]

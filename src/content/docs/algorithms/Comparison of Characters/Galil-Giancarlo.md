@@ -4,7 +4,7 @@ date: 1992
 abbreviation: GG
 sidebar:
   order: 18
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [59]

@@ -4,7 +4,7 @@ date: 1991
 abbreviation: TW
 sidebar:
   order: 14
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [34]

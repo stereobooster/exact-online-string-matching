@@ -4,7 +4,7 @@ date: 1999
 abbreviation: "BOM"
 sidebar:
   order: 67
-category: Automata
+tags: [automata]
 ---
 
 Appeared in [3]

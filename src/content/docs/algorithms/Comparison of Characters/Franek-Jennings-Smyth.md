@@ -4,7 +4,7 @@ date: 2007
 abbreviation: FJS
 sidebar:
   order: 36
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [54,55]

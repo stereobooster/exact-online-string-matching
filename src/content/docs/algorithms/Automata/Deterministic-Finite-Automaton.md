@@ -4,7 +4,7 @@ date: 0
 abbreviation: "DFA"
 sidebar:
   order: 61
-category: Automata
+tags: [automata]
 ---
 
 Appeared in [31]

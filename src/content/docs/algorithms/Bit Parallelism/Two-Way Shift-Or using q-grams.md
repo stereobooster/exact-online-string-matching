@@ -4,7 +4,7 @@ date: 2014
 abbreviation: TSOq
 sidebar:
   order: 117
-category: Bit Parallelism
+tags: [bit-parallelism]
 ---
 
 Appeared in [37]

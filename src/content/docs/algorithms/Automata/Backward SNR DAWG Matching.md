@@ -4,7 +4,7 @@ date: 2012
 abbreviation: BSDM
 sidebar:
   order: 78
-category: Automata
+tags: [automata]
 ---
 
 Appeared in [50]

@@ -4,7 +4,7 @@ date: 2013
 abbreviation: EPSM
 sidebar:
   order: 124
-category: Packed String Matching
+tags: [packed-string-matching]
 ---
 
 Appeared in [44,45]

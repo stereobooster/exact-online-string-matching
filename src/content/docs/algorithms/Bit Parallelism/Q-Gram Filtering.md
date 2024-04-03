@@ -4,7 +4,7 @@ date: 2010
 abbreviation: QF
 sidebar:
   order: 106
-category: Bit Parallelism
+tags: [bit-parallelism]
 ---
 
 Appeared in [39]

@@ -4,7 +4,7 @@ date: 2009
 abbreviation: SABP
 sidebar:
   order: 103
-category: Bit Parallelism
+tags: [bit-parallelism]
 ---
 
 Appeared in [100]

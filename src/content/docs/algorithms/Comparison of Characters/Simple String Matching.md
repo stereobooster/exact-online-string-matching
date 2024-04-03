@@ -4,7 +4,7 @@ date: 2015
 abbreviation: SSM
 sidebar:
   order: 56
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [2]

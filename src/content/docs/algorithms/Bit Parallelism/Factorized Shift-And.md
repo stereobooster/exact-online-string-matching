@@ -4,7 +4,7 @@ date: 2010
 abbreviation: KSA
 sidebar:
   order: 109
-category: Bit Parallelism
+tags: [bit-parallelism]
 ---
 
 Appeared in [26,27]

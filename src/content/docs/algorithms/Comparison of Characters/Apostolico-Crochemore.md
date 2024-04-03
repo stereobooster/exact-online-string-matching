@@ -4,7 +4,7 @@ date: 1991
 abbreviation: AC
 sidebar:
   order: 13
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [6]

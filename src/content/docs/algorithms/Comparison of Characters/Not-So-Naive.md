@@ -4,7 +4,7 @@ date: 1993
 abbreviation: NSN
 sidebar:
   order: 22
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [62]

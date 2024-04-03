@@ -4,7 +4,7 @@ date: 1990
 abbreviation: MS
 sidebar:
   order: 12
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [96]

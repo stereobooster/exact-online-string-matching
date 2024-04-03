@@ -4,7 +4,7 @@ date: 2015
 abbreviation: QLQS
 sidebar:
   order: 57
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [98]

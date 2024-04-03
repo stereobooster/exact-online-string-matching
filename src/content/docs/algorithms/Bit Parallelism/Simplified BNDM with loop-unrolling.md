@@ -4,7 +4,7 @@ date: 2005
 abbreviation: SBNDM2
 sidebar:
   order: 90
-category: Bit Parallelism
+tags: [bit-parallelism]
 ---
 
 Appeared in [64]

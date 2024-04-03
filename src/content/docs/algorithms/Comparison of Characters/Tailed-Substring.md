@@ -4,7 +4,7 @@ date: 2004
 abbreviation: TS
 sidebar:
   order: 32
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [19]

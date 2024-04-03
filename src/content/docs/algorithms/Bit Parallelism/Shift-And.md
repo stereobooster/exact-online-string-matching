@@ -4,7 +4,7 @@ date: 1989
 abbreviation: SA
 sidebar:
   order: 82
-category: Bit Parallelism
+tags: [bit-parallelism]
 ---
 
 Appeared in [8,9]

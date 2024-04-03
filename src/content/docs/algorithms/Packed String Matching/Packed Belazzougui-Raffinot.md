@@ -4,7 +4,7 @@ date: 2010
 abbreviation: PBR
 sidebar:
   order: 122
-category: Packed String Matching
+tags: [packed-string-matching]
 ---
 
 Appeared in [12]

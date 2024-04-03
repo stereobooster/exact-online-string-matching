@@ -4,7 +4,7 @@ date: 1987
 abbreviation: KR
 sidebar:
   order: 8
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [73]

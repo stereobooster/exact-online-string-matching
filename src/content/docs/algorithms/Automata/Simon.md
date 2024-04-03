@@ -4,7 +4,7 @@ date: 1994
 abbreviation: "SIM"
 sidebar:
   order: 63
-category: Automata
+tags: [automata]
 ---
 
 Appeared in [92]

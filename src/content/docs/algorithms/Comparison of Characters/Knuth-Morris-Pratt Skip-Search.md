@@ -4,7 +4,7 @@ date: 1998
 abbreviation: KMPS
 sidebar:
   order: 26
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [28]

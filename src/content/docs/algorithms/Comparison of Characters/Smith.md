@@ -4,7 +4,7 @@ date: 1991
 abbreviation: SMITH
 sidebar:
   order: 17
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [93]

@@ -4,7 +4,7 @@ date: 2009
 abbreviation: SFBOM
 sidebar:
   order: 77
-category: Automata
+tags: [automata]
 ---
 
 Appeared in [40]

@@ -4,7 +4,7 @@ date: 2014
 abbreviation: TSO
 sidebar:
   order: 115
-category: Bit Parallelism
+tags: [bit-parallelism]
 ---
 
 Appeared in [37]

@@ -4,7 +4,7 @@ date: 1989
 abbreviation: SO
 sidebar:
   order: 81
-category: Bit Parallelism
+tags: [bit-parallelism]
 ---
 
 Appeared in [8,9]

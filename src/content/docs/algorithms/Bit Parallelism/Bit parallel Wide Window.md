@@ -4,7 +4,7 @@ date: 2005
 abbreviation: BWW
 sidebar:
   order: 94
-category: Bit Parallelism
+tags: [bit-parallelism]
 ---
 
 Appeared in [63]

@@ -4,7 +4,7 @@ date: 1998
 abbreviation: SKIP
 sidebar:
   order: 24
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [28]

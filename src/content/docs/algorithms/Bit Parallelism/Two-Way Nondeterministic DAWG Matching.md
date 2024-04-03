@@ -4,7 +4,7 @@ date: 2003
 abbreviation: TNDM
 sidebar:
   order: 86
-category: Bit Parallelism
+tags: [bit-parallelism]
 ---
 
 Appeared in [85]

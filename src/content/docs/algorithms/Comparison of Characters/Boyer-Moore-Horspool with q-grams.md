@@ -4,7 +4,7 @@ date: 2008
 abbreviation: BMHq
 sidebar:
   order: 39
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [72]

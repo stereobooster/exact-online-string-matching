@@ -4,7 +4,7 @@ date: 1992
 abbreviation: TBM
 sidebar:
   order: 21
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [53,33]

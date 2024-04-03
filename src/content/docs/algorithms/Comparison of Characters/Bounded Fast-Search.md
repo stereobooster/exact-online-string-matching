@@ -4,7 +4,7 @@ date: 2010
 abbreviation: BFS
 sidebar:
   order: 43
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [20]

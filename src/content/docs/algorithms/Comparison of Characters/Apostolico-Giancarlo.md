@@ -4,7 +4,7 @@ date: 1986
 abbreviation: AG
 sidebar:
   order: 7
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [7]

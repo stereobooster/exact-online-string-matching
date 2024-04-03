@@ -4,7 +4,7 @@ date: 1980
 abbreviation: HOR
 sidebar:
   order: 5
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [65]

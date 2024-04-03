@@ -4,7 +4,7 @@ date: 2005
 abbreviation: BNDMBMH
 sidebar:
   order: 91
-category: Bit Parallelism
+tags: [bit-parallelism]
 ---
 
 Appeared in [64]

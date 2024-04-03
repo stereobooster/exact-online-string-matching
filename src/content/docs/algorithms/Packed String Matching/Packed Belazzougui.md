@@ -4,7 +4,7 @@ date: 2010
 abbreviation: PB
 sidebar:
   order: 121
-category: Packed String Matching
+tags: [packed-string-matching]
 ---
 
 Appeared in [10,11]

@@ -4,7 +4,7 @@ date: 2008
 abbreviation: BLIM
 sidebar:
   order: 99
-category: Bit Parallelism
+tags: [bit-parallelism]
 ---
 
 Appeared in [75]

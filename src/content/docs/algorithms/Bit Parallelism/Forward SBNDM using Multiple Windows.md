@@ -4,7 +4,7 @@ date: 2012
 abbreviation: FSBNDMw
 sidebar:
   order: 113
-category: Bit Parallelism
+tags: [bit-parallelism]
 ---
 
 Appeared in [51]

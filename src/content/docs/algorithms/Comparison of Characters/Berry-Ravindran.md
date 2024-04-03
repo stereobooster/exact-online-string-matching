@@ -4,7 +4,7 @@ date: 1999
 abbreviation: BR
 sidebar:
   order: 27
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [15]

@@ -4,7 +4,7 @@ date: 2012
 abbreviation: MSBM
 sidebar:
   order: 47
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [89]

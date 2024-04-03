@@ -4,7 +4,7 @@ date: 1994
 abbreviation: "TRF"
 sidebar:
   order: 64
-category: Automata
+tags: [automata]
 ---
 
 Appeared in [33]

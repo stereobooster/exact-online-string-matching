@@ -4,7 +4,7 @@ date: 2005
 abbreviation: AOSO
 sidebar:
   order: 95
-category: Bit Parallelism
+tags: [bit-parallelism]
 ---
 
 Appeared in [58]

@@ -4,7 +4,7 @@ date: 2005
 abbreviation: FAOSO
 sidebar:
   order: 96
-category: Bit Parallelism
+tags: [bit-parallelism]
 ---
 
 Appeared in [58]

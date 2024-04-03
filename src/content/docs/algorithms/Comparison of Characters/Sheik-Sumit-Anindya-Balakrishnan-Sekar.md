@@ -4,7 +4,7 @@ date: 2004
 abbreviation: SSABS
 sidebar:
   order: 33
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [91]

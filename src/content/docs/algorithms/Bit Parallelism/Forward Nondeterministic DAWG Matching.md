@@ -4,7 +4,7 @@ date: 2005
 abbreviation: FNDM
 sidebar:
   order: 93
-category: Bit Parallelism
+tags: [bit-parallelism]
 ---
 
 Appeared in [64]

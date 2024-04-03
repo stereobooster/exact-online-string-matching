@@ -4,7 +4,7 @@ date: 2015
 abbreviation: FSW
 sidebar:
   order: 59
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [68]

@@ -4,7 +4,7 @@ date: 2014
 abbreviation: TSA
 sidebar:
   order: 114
-category: Bit Parallelism
+tags: [bit-parallelism]
 ---
 
 Appeared in [37]

@@ -4,7 +4,7 @@ date: 2011
 abbreviation: SSECP
 sidebar:
   order: 123
-category: Packed String Matching
+tags: [packed-string-matching]
 ---
 
 Appeared in [13,14]

@@ -4,7 +4,7 @@ date: 2010
 abbreviation: BBM
 sidebar:
   order: 42
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [20]

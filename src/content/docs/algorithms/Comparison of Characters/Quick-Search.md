@@ -4,7 +4,7 @@ date: 1990
 abbreviation: QS
 sidebar:
   order: 10
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [96]

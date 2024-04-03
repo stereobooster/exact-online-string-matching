@@ -4,7 +4,7 @@ date: 2012
 abbreviation: MHASHq
 sidebar:
   order: 50
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [49]

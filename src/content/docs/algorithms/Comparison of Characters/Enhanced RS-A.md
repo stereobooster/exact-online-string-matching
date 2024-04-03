@@ -4,7 +4,7 @@ date: 2013
 abbreviation: ERSA
 sidebar:
   order: 52
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [94]

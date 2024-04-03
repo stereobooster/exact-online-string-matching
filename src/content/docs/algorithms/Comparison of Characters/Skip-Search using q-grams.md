@@ -4,7 +4,7 @@ date: 2016
 abbreviation: SKIPq
 sidebar:
   order: 60
-category: Comparison of Characters
+tags: [comparison-of-characters]
 ---
 
 Appeared in [43]

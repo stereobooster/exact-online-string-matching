@@ -4,7 +4,7 @@ date: 2009
 abbreviation: BNDMq
 sidebar:
   order: 100
-category: Bit Parallelism
+tags: [bit-parallelism]
 ---
 
 Appeared in [38]

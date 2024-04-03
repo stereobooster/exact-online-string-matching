@@ -4,7 +4,7 @@ date: 2010
 abbreviation: BXS
 sidebar:
   order: 104
-category: Bit Parallelism
+tags: [bit-parallelism]
 ---
 
 Appeared in [39]

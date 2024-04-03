@@ -4,7 +4,7 @@ date: 2008
 abbreviation: SBDM
 sidebar:
   order: 75
-category: Automata
+tags: [automata]
 ---
 
 Appeared in [57]
