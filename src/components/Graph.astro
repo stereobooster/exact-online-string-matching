@@ -1,0 +1,61 @@
+---
+import { renderer, DEFAULTS } from "./graphRenderer";
+
+export interface Props {
+  graph: any;
+}
+
+const { graph } = Astro.props;
+
+// probably need to use cache here
+const result = renderer(graph, {
+  ...DEFAULTS,
+  width: 800,
+  height: 800,
+});
+---
+
+<script>
+  // @ts-nocheck
+  // because can't resolve this error
+  // Type '{ children: Element; class: string; }' is not assignable to type 'DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement>'.
+  // Property 'class' does not exist on type 'DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement>'. Did you mean 'className'?
+</script>
+
+<div class="graphology">
+  <Fragment set:html={result} />
+</div>
+
+<script>
+  // TODO: prevent link click on drag/zoom
+  const elements = document.querySelectorAll(".graphNode");
+  const labels = document.querySelectorAll(".graphLabel");
+
+  function showLabel(e: any) {
+    const label = document.querySelector(
+      `#label-${e.target.getAttribute("data-id")}`
+    );
+    // @ts-ignore
+    if (label) label.style.display = "block";
+  }
+
+  function hideLabel() {
+    Array.from(labels).forEach((label) => {
+      // @ts-ignore
+      label.style.display = "none";
+    })
+  }
+
+  const events = [
+    ["mouseenter", showLabel],
+    ["mouseleave", hideLabel],
+    ["focus", showLabel],
+    ["blur", hideLabel],
+  ] as const;
+
+  Array.from(elements).forEach((element) => {
+    events.forEach(([event, listener]) => {
+      element.addEventListener(event, listener);
+    });
+  });
+</script>
