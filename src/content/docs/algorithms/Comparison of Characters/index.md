@@ -1,7 +1,5 @@
 ---
 title: Introduction
-date: 0
-abbreviation: ""
 sidebar:
   order: -1
 ---
