@@ -6,6 +6,8 @@ import forceAtlas2 from "graphology-layout-forceatlas2";
 // @ts-ignore
 const { MultiGraph } = graphology;
 
+const prefix = "/algorithms";
+
 export async function toGraphologyJson(db: BrainDB) {
   const nodes = (await db.documents())
     .map((document) => ({
@@ -17,43 +19,41 @@ export async function toGraphologyJson(db: BrainDB) {
         // color: "#f00"
       },
     }))
-    .filter((x) => x.attributes.url.startsWith("/recipes"));
+    .filter((x) => x.attributes.url.startsWith(prefix));
 
   const edges = (await db.links())
-    .filter(
-      (link) => link.to() !== null && link.to()?.url().startsWith("/recipes")
-    )
+    .filter((link) => link.to() !== null && link.to()?.url().startsWith(prefix))
     .map((link) => ({
       source: link.from().id(),
       target: link.to()?.id(),
     }));
 
-  const tagsAll = (await db.documents())
-    .map((document) => {
-      const tags = document.frontmatter().tags;
-      return Array.isArray(tags) ? tags : [];
-    })
-    .flat();
+  // const tagsAll = (await db.documents())
+  //   .map((document) => {
+  //     const tags = document.frontmatter().tags;
+  //     return Array.isArray(tags) ? tags : [];
+  //   })
+  //   .flat();
 
-  const tagNodes = [...new Set(tagsAll)].map((tag) => ({
-    key: tag,
-    attributes: {
-      label: tag,
-      url: "",
-      size: 0.4,
-    },
-  }));
+  // const tagNodes = [...new Set(tagsAll)].map((tag) => ({
+  //   key: tag,
+  //   attributes: {
+  //     label: tag,
+  //     url: "",
+  //     size: 0.4,
+  //   },
+  // }));
 
-  const tagEdges = (await db.documents())
-    .map((document) => {
-      const tags = document.frontmatter().tags;
-      if (!Array.isArray(tags)) return [];
-      return tags.map((tag) => ({
-        source: tag,
-        target: document.id(),
-      }));
-    })
-    .flat();
+  // const tagEdges = (await db.documents())
+  //   .map((document) => {
+  //     const tags = document.frontmatter().tags;
+  //     if (!Array.isArray(tags)) return [];
+  //     return tags.map((tag) => ({
+  //       source: tag,
+  //       target: document.id(),
+  //     }));
+  //   })
+  //   .flat();
 
   return {
     attributes: { name: "g" },
@@ -62,8 +62,8 @@ export async function toGraphologyJson(db: BrainDB) {
       multi: true,
       type: "directed",
     },
-    nodes: [...nodes, ...tagNodes],
-    edges: [...edges, ...tagEdges],
+    nodes, //: [...nodes, ...tagNodes],
+    edges, //: [...edges, ...tagEdges],
   };
 }
 

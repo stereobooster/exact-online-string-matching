@@ -3,10 +3,8 @@ import starlight from "@astrojs/starlight";
 import rehypeExternalLinks from "rehype-external-links";
 import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
-import remarkMermaidjs from "remark-mermaidjs";
 import { rehypeHeadingIds } from "@astrojs/markdown-remark";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
-import Icons from "unplugin-icons/vite";
 
 import { wikiLinkPlugin } from "@stereobooster/remark-wiki-link";
 import { bdb } from "./src/lib/braindb.mjs";
@@ -50,7 +48,6 @@ export default defineConfig({
   markdown: {
     remarkPlugins: [
       remarkMath,
-      remarkMermaidjs,
       [
         wikiLinkPlugin,
         {
@@ -105,10 +102,5 @@ export default defineConfig({
     optimizeDeps: {
       exclude: ["fsevents", "@node-rs", "@napi-rs"],
     },
-    plugins: [
-      Icons({
-        compiler: "astro",
-      }),
-    ],
   },
 });
