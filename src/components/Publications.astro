@@ -2,6 +2,12 @@
 import { bdb } from "../lib/braindb.mjs";
 import Timeline from "./Timeline.astro";
 
+interface Props {
+  fullWidth?: boolean;
+}
+
+const { fullWidth } = Astro.props;
+
 const items = (await bdb.documents())
   .map((doc) => {
     const fm = doc.frontmatter();
@@ -11,14 +17,23 @@ const items = (await bdb.documents())
       year: fm.date as number,
       tooltip: " ", //doc.title(),
       // @ts-ignore
-      //   class: fm.tags[0],
+      class: fm.tags[0],
       url: doc.url(),
       out: doc
         .documentsFrom()
-        .map((x) => x.frontmatter().abbreviation as string),
+        .map((x) => x.frontmatter().abbreviation as string)
+        .filter(Boolean),
     };
   })
   .filter(Boolean) as any;
 ---
 
-<Timeline items={items} />
+<div class:list={[{ fullWidth }]}>
+  <Timeline items={items} />
+</div>
+
+<style>
+  .fullWidth {
+    width: calc(100vw - 2 * var(--sl-content-pad-x));
+  }
+</style>

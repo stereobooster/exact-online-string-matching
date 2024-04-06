@@ -75,3 +75,42 @@ svg.icon.text {
   display: inline-block !important;
   margin: 0 0 -0.25rem 0 !important;
 }
+
+.timeline {
+  .automata {
+    polygon {
+      fill: lightblue;
+      stroke: lightblue;
+    }
+    text {
+      fill: black;
+    }
+  }
+  .comparison-of-characters {
+    polygon {
+      fill: lightpink;
+      stroke: lightpink;
+    }
+    text {
+      fill: black;
+    }
+  }
+  .bit-parallelism {
+    polygon {
+      fill: lavender;
+      stroke: lavender;
+    }
+    text {
+      fill: black;
+    }
+  }
+  .packed-string-matching {
+    polygon {
+      fill: #c0ff3e;
+      stroke: #c0ff3e;
+    }
+    text {
+      fill: black;
+    }
+  }
+}

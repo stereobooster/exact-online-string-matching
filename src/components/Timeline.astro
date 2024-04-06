@@ -14,9 +14,13 @@ type TimelineItem = {
 
 interface Props {
   items: TimelineItem[];
+  /**
+   * https://www.graphviz.org/doc/info/attrs.html#d:rankdir
+   */
+  direction?: "TB" | "BT" | "LR" | "RL";
 }
 
-const { items } = Astro.props;
+const { items, direction } = Astro.props;
 
 const byYears: Record<string, string[]> = {};
 
@@ -25,8 +29,8 @@ items.forEach((item) => {
   byYears[item.year].push(item.id);
 });
 
-const src = `
-digraph timeline {
+const src = `digraph timeline {
+    ${direction ? `rankdir=${direction}` : ""}
     bgcolor="transparent";
     size="7,8";
 

@@ -4,7 +4,6 @@ Demo
 
 ## TODO
 
-- hero page
 - about page
   - explain demo
   - used tools
