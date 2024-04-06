@@ -16,7 +16,7 @@ export default defineConfig({
   site: "https://exact-online-string-matching.stereobooster.com",
   integrations: [
     starlight({
-      title: "Exact Online String Matching Bibliography",
+      title: "Exact Online String Matching",
       social: {
         github: "https://github.com/stereobooster/exact-online-string-matching",
       },
@@ -37,6 +37,7 @@ export default defineConfig({
       customCss: ["./src/styles/custom.css"],
       components: {
         PageFrame: "./src/components/PageFrame.astro",
+        TableOfContents: "./src/components/TableOfContents.astro",
         // Hero: "./src/components/Hero.astro",
       },
       lastUpdated: true,
