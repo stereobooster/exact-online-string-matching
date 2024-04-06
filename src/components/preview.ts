@@ -97,7 +97,6 @@ async function showLinkPreview(e: MouseEvent | FocusEvent) {
   }, 400);
 }
 
-// TODO: astro:page-load
 tooltip.addEventListener("mouseenter", clearTimers);
 tooltip.addEventListener("mouseleave", hideLinkPreview);
 
