@@ -13,7 +13,7 @@ await bdb.ready();
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://exact-online-string-matching.stereobooster.com",
+  site: "https://exact.stereobooster.com",
   integrations: [
     starlight({
       title: "Exact Online String Matching",
