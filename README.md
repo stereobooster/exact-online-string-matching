@@ -6,6 +6,8 @@
 
 ## TODO
 
+- expose page with diagram alone to allow embeding with iframe
+- expose daigram as SVG file to allow downloading
 - show metadata in sidebar
 - client-side content-graph. I can render it on the server side, but I don't like it
   - use the same colors as in timeline visualisation
