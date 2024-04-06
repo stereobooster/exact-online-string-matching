@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/23562080-f0ef-40d0-9536-7811caccaefe/deploy-status)](https://app.netlify.com/sites/exact-online-string-matching/deploys)
 
-Demo of timeline diagram (aka chronology, aka genealogical tree). All content taken from [Exact Online String Matching Bibliography](https://arxiv.org/pdf/1605.05067.pdf) (all credits goes to the original author).
+[Demo of timeline diagram (aka chronology, aka genealogical tree)](https://exact.stereobooster.com). All content taken from [Exact Online String Matching Bibliography](https://arxiv.org/pdf/1605.05067.pdf) (all credits goes to the original author).
 
 ## TODO
 
