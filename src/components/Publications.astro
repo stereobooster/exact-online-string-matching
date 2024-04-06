@@ -1,0 +1,23 @@
+---
+import { bdb } from "../lib/braindb.mjs";
+import Timeline from "./Timeline.astro";
+
+const items = (await bdb.documents())
+  .map((doc) => {
+    const fm = doc.frontmatter();
+    if (!fm.abbreviation) return false;
+    return {
+      id: fm.abbreviation as string,
+      year: fm.date as number,
+      // @ts-ignore
+      //   class: fm.tags[0],
+      url: doc.url(),
+      out: doc
+        .documentsFrom()
+        .map((x) => x.frontmatter().abbreviation as string),
+    };
+  })
+  .filter(Boolean) as any;
+---
+
+<Timeline items={items} />
