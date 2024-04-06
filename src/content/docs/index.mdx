@@ -4,6 +4,14 @@ prev: false
 next: false
 ---
 
+import Publications from "../../components/Publications.astro";
+
+<Publications />
+
+## About demo
+
+All content taken from [Exact Online String Matching Bibliography](https://arxiv.org/pdf/1605.05067.pdf)
+
 import { LinkCard, CardGrid } from "@astrojs/starlight/components";
 
 <CardGrid>
@@ -11,9 +19,4 @@ import { LinkCard, CardGrid } from "@astrojs/starlight/components";
   <LinkCard title="Alphabetical index" href="/alphabetical/" />
   <LinkCard title="Tags" href="/tags/" />
   <LinkCard title="Graph" href="/graph/" />
-  <LinkCard title="Timeline" href="/timeline/" />
 </CardGrid>
-
-## Demo
-
-All content taken from [Exact Online String Matching Bibliography](https://arxiv.org/pdf/1605.05067.pdf)

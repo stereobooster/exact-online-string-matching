@@ -15,8 +15,8 @@ dependencies:
     specifier: ^0.21.2
     version: 0.21.2(astro@4.5.12)
   '@braindb/core':
-    specifier: ^0.0.9
-    version: 0.0.9
+    specifier: ^0.0.10
+    version: 0.0.10
   '@floating-ui/dom':
     specifier: ^1.6.3
     version: 1.6.3
@@ -53,6 +53,9 @@ dependencies:
   katex:
     specifier: ^0.16.10
     version: 0.16.10
+  mkdirp:
+    specifier: ^3.0.1
+    version: 3.0.1
   rehype-autolink-headings:
     specifier: ^7.1.0
     version: 7.1.0
@@ -487,16 +490,17 @@ packages:
       to-fast-properties: 2.0.0
     dev: false
 
-  /@braindb/core@0.0.9:
-    resolution: {integrity: sha512-XDVakjqHE8VzqTZ4ZFMlkuxxfvctJ/OLwmmBdawRzNuQ3MDyIBM/T1QqCe+y2naJ85gq/T6xilYkEtx0Ui7mWA==}
+  /@braindb/core@0.0.10:
+    resolution: {integrity: sha512-OyF9I3UgtTN80E9/AVWS+cJiNOQSA0buYTmxPmZJsqdsOwethDG3LJnZdcZVafAHymJRLgiq/JRdy6dWAGBd/g==}
     dependencies:
       '@napi-rs/simple-git': 0.1.16
       '@node-rs/xxhash': 1.7.0
       '@stereobooster/remark-wiki-link': 2.1.0
-      '@types/serialize-javascript': 5.0.4
-      better-sqlite3: 9.4.3
+      '@types/mdast': 4.0.3
+      '@types/unist': 3.0.2
+      better-sqlite3: 9.4.5
       chokidar: 3.6.0
-      drizzle-orm: 0.30.6(better-sqlite3@9.4.3)
+      drizzle-orm: 0.30.7(better-sqlite3@9.4.5)
       mitt: 3.0.1
       mkdirp: 3.0.1
       remark-frontmatter: 5.0.0
@@ -506,6 +510,7 @@ packages:
       strip-markdown: 6.0.0
       unified: 11.0.4
       unist-util-map: 4.0.0
+      unist-util-visit: 5.0.0
       yaml: 2.4.1
     transitivePeerDependencies:
       - '@aws-sdk/client-rds-data'
@@ -1876,10 +1881,6 @@ packages:
       '@types/node': 17.0.45
     dev: false
 
-  /@types/serialize-javascript@5.0.4:
-    resolution: {integrity: sha512-Z2R7UKFuNWCP8eoa2o9e5rkD3hmWxx/1L0CYz0k2BZzGh0PhEVMp9kfGiqEml/0IglwNERXZ2hwNzIrSz/KHTA==}
-    dev: false
-
   /@types/unist@2.0.10:
     resolution: {integrity: sha512-IfYcSBWE3hLpBg8+X2SEa8LVkJdJEkT2Ese2aaLs3ptGdVtABxndrMaxuFlQ1qdFf9Q5rDvDpxI3WwgvKFAsQA==}
     dev: false
@@ -2218,8 +2219,8 @@ packages:
       is-decimal: 2.0.1
     dev: false
 
-  /better-sqlite3@9.4.3:
-    resolution: {integrity: sha512-ud0bTmD9O3uWJGuXDltyj3R47Nz0OHX8iqPOT5PMspGqlu/qQFn+5S2eFBUCrySpavTjFXbi4EgrfVvPAHlImw==}
+  /better-sqlite3@9.4.5:
+    resolution: {integrity: sha512-uFVyoyZR9BNcjSca+cp3MWCv6upAv+tbMC4SWM51NIMhoQOm4tjIkyxFO/ZsYdGAF61WJBgdzyJcz4OokJi0gQ==}
     requiresBuild: true
     dependencies:
       bindings: 1.5.0
@@ -2575,8 +2576,8 @@ packages:
     resolution: {integrity: sha512-+HlytyjlPKnIG8XuRG8WvmBP8xs8P71y+SKKS6ZXWoEgLuePxtDoUEiH7WkdePWrQ5JBpE6aoVqfZfJUQkjXwA==}
     dev: false
 
-  /drizzle-orm@0.30.6(better-sqlite3@9.4.3):
-    resolution: {integrity: sha512-8RgNUmY7J03GRuRgBV5SaJNbYgLVPjdSWNS/bRkIMIHt2TFCA439lJsNpqYX8asyKMqkw8ceBiamUnCIXZIt9w==}
+  /drizzle-orm@0.30.7(better-sqlite3@9.4.5):
+    resolution: {integrity: sha512-9qefSZQlu2fO2qv24piHyWFWcxcOY15//0v4j8qomMqaxzipNoG+fUBrQ7Ftk7PY7APRbRdn/nkEXWxiI4a8mw==}
     peerDependencies:
       '@aws-sdk/client-rds-data': '>=3'
       '@cloudflare/workers-types': '>=3'
@@ -2590,7 +2591,7 @@ packages:
       '@types/pg': '*'
       '@types/react': '>=18'
       '@types/sql.js': '*'
-      '@vercel/postgres': '*'
+      '@vercel/postgres': '>=0.8.0'
       '@xata.io/client': '*'
       better-sqlite3: '>=7'
       bun-types: '*'
@@ -2655,7 +2656,7 @@ packages:
       sqlite3:
         optional: true
     dependencies:
-      better-sqlite3: 9.4.3
+      better-sqlite3: 9.4.5
     dev: false
 
   /dset@3.1.3:

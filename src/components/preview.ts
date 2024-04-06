@@ -48,10 +48,10 @@ async function showLinkPreview(e: MouseEvent | FocusEvent) {
     local = href.startsWith(start);
   } else {
     // disabled for now
-    // href = hrefRaw.baseVal;
-    // hash = new URL(href, window.location.origin).hash;
-    // local = href.startsWith("/");
-    // svg = true;
+    href = hrefRaw.baseVal;
+    hash = new URL(href, window.location.origin).hash;
+    local = href.startsWith("/");
+    svg = true;
   }
 
   const hrefWithoutAnchor = href.replace(hash, "");

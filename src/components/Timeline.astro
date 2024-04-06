@@ -4,6 +4,7 @@ import Graphviz from "./Graphviz.astro";
 type TimelineItem = {
   id: string;
   year: number;
+  tooltip?: string;
   class?: string;
   label?: string;
   url?: string;
@@ -33,7 +34,8 @@ digraph timeline {
     node [fontsize=24, shape = plaintext];
 
     ${Object.keys(byYears).sort().join(` -> `)}
-    
+    0[label=" "]
+
     node [fontsize=20, shape = box];
 
     ${Object.keys(byYears)
@@ -46,14 +48,12 @@ digraph timeline {
 
     edge[style=solid];
 
-    ${items.map((item) => `"${item.id}"[${item.url ? `URL="${item.url}"` : ""} ${item.label ? `label="${item.label}"` : ""} ${item.class ? `class="${item.class}"` : ""}];`).join("\n")}
+    ${items.map((item) => `"${item.id}"[${item.url ? `URL="${item.url}"` : ""} ${item.label ? `label="${item.label}"` : ""} ${item.class ? `class="${item.class}"` : ""} ${item.tooltip ? `tooltip="${item.tooltip}"` : ""}];`).join("\n")}
 
     ${items.map((item) => (!item.in ? "" : item.in.map((id) => `"${id}" -> "${item.id}";`).join("\n"))).join("\n")}
 
     ${items.map((item) => (!item.out ? "" : item.out.map((id) => `"${item.id}" -> "${id}";`).join("\n"))).join("\n")}
 }`;
-
-console.log(src)
 ---
 
 <div class="timeline">

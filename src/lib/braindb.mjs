@@ -2,6 +2,9 @@ import { slug as githubSlug } from "github-slugger";
 import path from "node:path";
 import process from "node:process";
 import { BrainDB } from "@braindb/core";
+// import { dirname } from "node:path";
+// import { mkdirp } from "mkdirp";
+// import { writeFileSync } from "node:fs";
 
 // slug implementation according to Astro
 // see astro/packages/astro/src/content/utils.ts
@@ -36,7 +39,33 @@ export const bdb = new BrainDB({
 
 bdb.start();
 
+// let first = false;
 bdb.on("*", (action, opts) => {
+  // if (first && action === "create" && opts.document.frontmatter().tags) {
+  //   let md = opts.document.markdown();
+  //   const regexp = /\((\d+)\)/g;
+
+  //   [...md.matchAll(regexp)].forEach((x) => {
+  //     const id = parseInt(x[1]);
+  //     const docs = bdb.documentsSync({
+  //       frontmatter: { sidebar: { order: id } },
+  //     });
+  //     const doc = docs[0];
+  //     if (doc) {
+  //       md = md.replaceAll(x[0], `[[${doc.slug()}]]`);
+  //     } else {
+  //       console.log(`Failed to find ${x[0]}`);
+  //     }
+  //   });
+
+  //   const mdPath = process.cwd() + `/tmp` + opts.document.path();
+  //   mkdirp.sync(dirname(mdPath));
+  //   writeFileSync(mdPath, md, {
+  //     encoding: "utf8",
+  //   });
+  //   // first = false;
+  // }
+
   if (action === "ready")
     console.log(`BrainDB ready: ${new Date().getTime() - start}ms`);
 
