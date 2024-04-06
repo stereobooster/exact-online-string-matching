@@ -25,7 +25,6 @@ export default defineConfig({
           "https://github.com/stereobooster/exact-online-string-matching/edit/main/",
       },
       sidebar: [
-        { label: "Introduction", link: "/" },
         {
           label: "Algorithms",
           collapsed: true,

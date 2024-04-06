@@ -1,12 +1,14 @@
 ---
-title: Timeline
+title: Chronology of Exact Online String Matching Algorithms
 prev: false
 next: false
 tableOfContents: false
 template: splash
 ---
 
-Comprehensive bibliography for the online exact string matching problem. Since 1970 more than **120** string matching algorithms have been proposed. In this note we present a comprehensive list of (almost) all string matching algorithms. The list is updated to **May 2016**. From [Exact Online String Matching Bibliography](https://arxiv.org/pdf/1605.05067.pdf)
+Since 1970 more than **120** string matching algorithms have been proposed. In this diagram shown almost all of them. The list is updated to **May 2016**. From [Exact Online String Matching Bibliography](https://arxiv.org/pdf/1605.05067.pdf)
+
+**Try: zoom, drag diagram below 👇 or hover, click nodes.**
 
 import Publications from "../../components/Publications.astro";
 
@@ -14,4 +16,35 @@ import Publications from "../../components/Publications.astro";
 
 ## About demo
 
+This demo is to show the potential of modern Jamstack and alternative ideas for publishing Second Brain / Digital Garden.
 
+### Markdown as "graph" database
+
+- Data for timeline directly queried from markdown files. No need to maintain a separate file.
+- Connection between nodes automatically discovered based on links (markdown links or wiki links).
+
+### No JS diagram
+
+- Diagram fully generated on the server (at build time in case of Jamstack). So it works even without JS - no need for Mermaid or d3 on the client
+- Diagram is embedded SVG, which allows
+  - to add HTML links to it
+  - style it with CSS classes, for example, to add dark theme support
+
+### Progressively enhanced diagram
+
+On top of static SVG, there is a small JS added to:
+
+- to allow drag/zoom diagram
+- to show HTML reach snippets when the user hovers over a node
+  - snippet is HTML page generated based on markdown from the file
+
+## Technology
+
+- [Astro + Braindb](https://astro-digital-garden.stereobooster.com/recipes/braindb/)
+- [Graphviz compiled to WASM](https://www.npmjs.com/package/@hpcc-js/wasm)
+
+## Related
+
+- [Digital garden about fuzzy string matching](https://fuzzy.stereobooster.com/)
+- [Chronology of parsers](https://parsing.stereobooster.com/other/chronology-of-parsers/)
+- [History of programming languages](https://rigaux.org/language-study/diagram.html). This is where I took the original idea of Graphviz visualization
