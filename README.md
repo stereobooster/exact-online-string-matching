@@ -6,12 +6,12 @@
 
 ## TODO
 
+- add references (`Appeared in \[...]`)
 - expose page with diagram alone to allow embeding with iframe
 - expose daigram as SVG file to allow downloading
 - show metadata in sidebar
 - client-side content-graph. I can render it on the server side, but I don't like it
   - use the same colors as in timeline visualisation
-- add references (`Appeared in \[...]`)
 - add data from other papers
   - [Exact String Matching Algorithms: Survey, Issues, and Future Research Directions](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8703383)
   - [Technology Beats Algorithms (in Exact String Matching)](https://arxiv.org/pdf/1612.01506.pdf)
