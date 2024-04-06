@@ -4,9 +4,12 @@ date: 2009
 abbreviation: SBNDMq
 sidebar:
   order: 101
-tags: [bit-parallelism]
+tags:
+  - bit-parallelism
 ---
 
-Appeared in [38]
+Variant of [[Simplified BNDM]] using a super alphabet implemented with q-grams.
 
-Variant of (85) using a super alphabet implemented with q-grams.
+Appeared in:
+
+- [38]: Durian, B., Holub, J., Peltola, H., Tarhio, J.: Tuning BNDM with q-grams. In: Finocchi, I., Hershberger, J. (eds.) Proceedings of the Eleventh Workshop on Algorithm Engineering and Experiments, ALENEX 2009, New York, New York, USA, January 3, 2009. pp. 29–37. SIAM (2009), http://dx.doi.org/10.1137/1.9781611972894.3

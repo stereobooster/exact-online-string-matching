@@ -4,9 +4,12 @@ date: 2004
 abbreviation: SSABS
 sidebar:
   order: 33
-tags: [comparison-of-characters]
+tags:
+  - comparison-of-characters
 ---
 
-Appeared in [91]
+Combination of [[Quick-Search]] and [[Raita]]
 
-Combination of (10) and (19)
+Appeared in:
+
+- [91]: Sheik, S.S., Aggarwal, S.K., Poddar, A., Balakrishnan, N., Sekar, K.: A FAST pattern matching algorithm. Journal of Chemical Information and Modeling 44(4), 1251–1256 (2004), http://dx.doi.org/10.1021/ci030463z

@@ -4,9 +4,12 @@ date: 2014
 abbreviation: TSA
 sidebar:
   order: 114
-tags: [bit-parallelism]
+tags:
+  - bit-parallelism
 ---
 
-Appeared in [37]
+Improvement of [[Shift-And]] using several sliding windows inspected in parallel.
 
-Improvement of (82) using several sliding windows inspected in parallel.
+Appeared in:
+
+- [37]: Durian, B., Chhabra, T., Ghuman, S.S., Hirvola, T., Peltola, H., Tarhio, J.: Improved two-way bit-parallel search. In: Holub, J., Zd´arek, J. (eds.) Proceedings of the Prague Stringology Conference 2014, Prague, Czech Republic, September 1-3, 2014. pp. 71–83. Department of Theoretical Computer Science, Faculty of Information Technology, Czech Technical University in Prague (2014), http://www.stringology.org/event/2014/p08.html

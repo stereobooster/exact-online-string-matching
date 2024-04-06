@@ -2,9 +2,11 @@ import { slug as githubSlug } from "github-slugger";
 import path from "node:path";
 import process from "node:process";
 import { BrainDB } from "@braindb/core";
+
 // import { dirname } from "node:path";
 // import { mkdirp } from "mkdirp";
-// import { writeFileSync } from "node:fs";
+// import { writeFileSync, readFileSync } from "node:fs";
+// const references = readFileSync(path.resolve(process.cwd(), "references.txt")).toString().split("\n");
 
 // slug implementation according to Astro
 // see astro/packages/astro/src/content/utils.ts
@@ -43,9 +45,9 @@ bdb.start();
 bdb.on("*", (action, opts) => {
   // if (first && action === "create" && opts.document.frontmatter().tags) {
   //   let md = opts.document.markdown();
-  //   const regexp = /\((\d+)\)/g;
+  //   const docRegexp = /\((\d+)\)/g;
 
-  //   [...md.matchAll(regexp)].forEach((x) => {
+  //   [...md.matchAll(docRegexp)].forEach((x) => {
   //     const id = parseInt(x[1]);
   //     const docs = bdb.documentsSync({
   //       frontmatter: { sidebar: { order: id } },
@@ -57,6 +59,17 @@ bdb.on("*", (action, opts) => {
   //       console.log(`Failed to find ${x[0]}`);
   //     }
   //   });
+
+  //   const refRegexp = /Appeared in \\\[([\d\,]+)\]/g;
+
+  //   [...md.matchAll(refRegexp)].forEach((x) => {
+  //     console.log()
+  //     md  = md.replace(x[0], "").replaceAll("\n\n", "\n")
+  //     md = md + "\nAppeared in:\n\n"
+  //     x[1].split(",").forEach(ref => {
+  //       md = md + `- \[${ref}]: ${references[parseInt(ref) - 1]}\n`
+  //     })
+  //   })
 
   //   const mdPath = process.cwd() + `/tmp` + opts.document.path();
   //   mkdirp.sync(dirname(mdPath));

@@ -6,7 +6,6 @@
 
 ## TODO
 
-- add references (`Appeared in \[...]`)
 - expose page with diagram alone to allow embeding with iframe
 - expose daigram as SVG file to allow downloading
 - show metadata in sidebar

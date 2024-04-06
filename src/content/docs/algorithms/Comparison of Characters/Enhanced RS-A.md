@@ -4,9 +4,12 @@ date: 2013
 abbreviation: ERSA
 sidebar:
   order: 52
-tags: [comparison-of-characters]
+tags:
+  - comparison-of-characters
 ---
 
-Appeared in [94]
+Combination of [[Enhanced Berry-Ravindran]] and [[Two Sliding Windows]].
 
-Combination of (51) and (40).
+Appeared in:
+
+- [94]: Suleiman, D., Hudaib, A., Al-Anani, A., R., A.K., Itriq, M.: Ers-a algorithm for pattern matching. Middle East Journal of Scientific Research 15, 1067–1075 (2013)
