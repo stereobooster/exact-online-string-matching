@@ -1,7 +1,7 @@
 ---
 title: Bounded Fast-Search
 date: 2010
-abbreviation: BFS
+abbreviation: BoFS
 sidebar:
   order: 43
 tags: [comparison-of-characters]
