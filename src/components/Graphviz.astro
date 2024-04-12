@@ -6,7 +6,7 @@ interface Props {
   src: string;
 }
 
-const src = Astro.props.src; // await Astro.slots.render('default');
+const { src } = Astro.props;
 
 let svg = graphviz
   .dot(src)
