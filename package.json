@@ -19,6 +19,7 @@
     "@pagefind/default-ui": "^1.0.4",
     "@stereobooster/remark-wiki-link": "^2.1.0",
     "astro": "^4.5.12",
+    "astro-robots-txt": "^1.0.0",
     "github-slugger": "^2.0.0",
     "graphology": "^0.25.4",
     "graphology-layout": "^0.6.1",

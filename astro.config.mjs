@@ -5,6 +5,7 @@ import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
 import { rehypeHeadingIds } from "@astrojs/markdown-remark";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
+import robotsTxt from 'astro-robots-txt';
 
 import { wikiLinkPlugin } from "@stereobooster/remark-wiki-link";
 import { bdb } from "./src/lib/braindb.mjs";
@@ -41,6 +42,7 @@ export default defineConfig({
       },
       lastUpdated: true,
     }),
+    robotsTxt()
   ],
   markdown: {
     remarkPlugins: [
