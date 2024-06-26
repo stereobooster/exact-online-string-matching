@@ -1,17 +1,31 @@
-import "svg-pan-zoom-gesture/css/SvgPanZoomUi.css";
-import { SvgPanZoomUi } from "svg-pan-zoom-gesture";
+import "@beoe/pan-zoom/css/PanZoomUi.css";
+import { PanZoomUi } from "@beoe/pan-zoom";
 
-// TODO: style svg-pan-zoom buttons https://starlight.astro.build/guides/css-and-tailwind/
-// TODO: provide container in HTML, instead of generating it on the fly
+// for BEOE diagrams
+document.querySelectorAll(".beoe").forEach((container) => {
+  const element = container.firstElementChild;
+  if (!element) return;
+  // @ts-expect-error
+  new PanZoomUi({ element, container }).on();
+});
+
+// for content images
 document
   .querySelectorAll(
-    ".sl-markdown-content svg:not(.icon):not(.tree-icon), .sl-markdown-content img[src$='.svg' i], .timeline svg"
+    ".sl-markdown-content > img[src$='.svg' i]," +
+      ".sl-markdown-content > p > img[src$='.svg' i]," +
+      // for development environment
+      ".sl-markdown-content > img[src$='f=svg' i]," +
+      ".sl-markdown-content > img[src$='f=svg' i]"
   )
   .forEach((element) => {
-    const container = document.createElement("div");
-    container.className = "svg-pan-zoom";
+    if (element.parentElement?.tagName === "PICTURE") {
+      element = element.parentElement;
+    }
+    const container = document.createElement("figure");
+    container.classList.add("beoe", "not-content");
     element.replaceWith(container);
     container.append(element);
     // @ts-expect-error
-    new SvgPanZoomUi({ element, container }).on();
+    new PanZoomUi({ element, container }).on();
   });

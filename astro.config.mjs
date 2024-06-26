@@ -5,9 +5,9 @@ import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
 import { rehypeHeadingIds } from "@astrojs/markdown-remark";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
-import robotsTxt from 'astro-robots-txt';
+import robotsTxt from "astro-robots-txt";
 
-import { wikiLinkPlugin } from "@stereobooster/remark-wiki-link";
+import remarkWikiLink from "@braindb/remark-wiki-link";
 import { bdb } from "./src/lib/braindb.mjs";
 
 await bdb.ready();
@@ -42,15 +42,14 @@ export default defineConfig({
       },
       lastUpdated: true,
     }),
-    robotsTxt()
+    robotsTxt(),
   ],
   markdown: {
     remarkPlugins: [
       remarkMath,
       [
-        wikiLinkPlugin,
+        remarkWikiLink,
         {
-          aliasDivider: "|",
           linkTemplate: ({ slug, alias }) => {
             const [slugWithoutAnchor, anchor] = slug.split("#");
             const doc = bdb.documentsSync({ slug: slugWithoutAnchor })[0];

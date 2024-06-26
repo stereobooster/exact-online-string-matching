@@ -10,15 +10,16 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.5.10",
-    "@astrojs/markdown-remark": "^4.3.2",
-    "@astrojs/starlight": "^0.21.2",
-    "@braindb/core": "^0.0.10",
-    "@floating-ui/dom": "^1.6.3",
-    "@hpcc-js/wasm": "^2.16.1",
-    "@pagefind/default-ui": "^1.0.4",
-    "@stereobooster/remark-wiki-link": "^2.1.0",
-    "astro": "^4.5.12",
+    "@astrojs/check": "^0.7.0",
+    "@astrojs/markdown-remark": "^5.1.1",
+    "@astrojs/starlight": "^0.24.4",
+    "@beoe/pan-zoom": "^0.0.3",
+    "@braindb/core": "^0.0.13",
+    "@braindb/remark-wiki-link": "^2.1.0",
+    "@floating-ui/dom": "^1.6.6",
+    "@hpcc-js/wasm": "^2.17.1",
+    "@pagefind/default-ui": "^1.1.0",
+    "astro": "^4.11.3",
     "astro-robots-txt": "^1.0.0",
     "github-slugger": "^2.0.0",
     "graphology": "^0.25.4",
@@ -32,8 +33,7 @@
     "rehype-external-links": "^3.0.0",
     "rehype-katex": "^7.0.0",
     "remark-math": "^6.0.0",
-    "sharp": "^0.33.3",
-    "svg-pan-zoom-gesture": "^0.0.2",
-    "typescript": "^5.4.3"
+    "sharp": "^0.33.4",
+    "typescript": "^5.5.2"
   }
 }
